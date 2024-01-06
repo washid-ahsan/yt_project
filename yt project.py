@@ -12,6 +12,7 @@ customtkinter.set_default_color_theme("blue")
 app = customtkinter.CTk()
 app.geometry("750x400")
 app.title("YouTube Downloader")
+app.resizable(False,False)
 
 def on_button_click():
     video_url = Entry.get()
